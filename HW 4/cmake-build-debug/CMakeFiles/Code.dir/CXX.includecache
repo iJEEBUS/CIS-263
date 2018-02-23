@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/user/Desktop/School/Winter-2018/CIS 263/HW/HW 4/Code/rounsifer.cpp
+iostream
+-
+fstream
+-
+map
+-
+regex
+-
+rounsifer.h
+/Users/user/Desktop/School/Winter-2018/CIS 263/HW/HW 4/Code/rounsifer.h
+
+/Users/user/Desktop/School/Winter-2018/CIS 263/HW/HW 4/Code/rounsifer.h
+
