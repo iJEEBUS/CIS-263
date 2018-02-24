@@ -10,9 +10,7 @@
 using namespace std;
 
 int main() {
-    // testing map data structure
     map <string, int> word_map; // empty map container
-    map <string, int> temp_map; // temp map container
     regex r("^[^a-zA-Z]+$"); // a string has to consist of letters
     regex a("(a)");
     regex d("(the)");
@@ -28,11 +26,13 @@ int main() {
     {
         // convert to lowercase
         transform(word.begin(), word.end(), word.begin(), ::tolower);
-        last_char = word.substr(word.size() - 1, word.size()-1);
-        last_char = word.substr(word.size() - 1, word.size()-1);
-        // checks if the word is in the map
-        // if not it adds it to it
-
+        
+	// last character of "word" - used to check for periods
+	last_char = word.substr(word.size() - 1, word.size()-1);
+        
+	// Checks for period in strings
+	// If detected, check for an existing string of the same word minus the period.
+	// If not detected, check for the string.
         if (last_char.compare(".") == 0 && word_map.find(word.substr(0,word.size()-1)) == word_map.end()) {
             word_map.insert(map<string, int>::value_type(word.substr(0,word.size()-1), 1));
         }
@@ -47,34 +47,21 @@ int main() {
         }
     }
 
-    // Checks each item in the original map
-    // if it is a not word, set its value to 0
+    // Sets value to 0 if not a word
     for(auto it = word_map.begin(); it != word_map.end(); it++)
     {
-        // Second condition checks for the end of a sentence
-        // E.g. ending in a period/question mark/etc...
-        if (regex_match(it->first, m, r) |
-                regex_match(it->first, m, a) |
-                regex_match(it->first, m, d))
-        {
+	//
+	// FIX THIS
+	// Figure out how to combine all of the regexes into one
+	//
+        if (regex_match(it->first, m, r) | regex_match(it->first, m, a) | regex_match(it->first, m, d))
             word_map[it->first] = 0;
-        }
 
         if (it->second > 0)
-        {
-            outFile << it->first << ' ' << it->second << "\n";
-            cout << it->first << ' ' << it->second << endl;
-        }
-
+		outFile << it->first << ' ' << it->second << "\n";
     }
-
     inFile.close();
     outFile.close();
-
-    // for each word that is read in, add it to the map
-    // if the word is already stored in the map, increment count by 1
-    // if the word is not included in the map, add and set counter to 1
-
 
     return 0;
 }
