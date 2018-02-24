@@ -1,24 +1,9 @@
-This
-is
-a
-test
-file.
-Water
-water
-23
-45
-WATER
-wAtER
-!
-@
-?
-are
-not
-included.
-The
-Test
-file
-is
-Word
-word
-word
+are 1
+file 2
+included 1
+is 2
+not 1
+test 2
+this 1
+water 4
+word 3
