@@ -1,6 +1,3 @@
-//
-// Created by Ron on 1/18/18.
-//
 #include <iostream>
 #include "house.h"
 using namespace std;
