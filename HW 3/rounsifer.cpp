@@ -2,7 +2,6 @@
 #include "bst.h"
 using namespace std;
 
-
 BinarySearchTree::BinarySearchTree(){
     /* Set all initial nodes to null pointers */
     root = root->right = root->left = nullptr;
