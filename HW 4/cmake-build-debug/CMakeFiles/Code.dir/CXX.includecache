@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/user/Desktop/School/Winter-2018/CIS 263/HW/HW 4/Code/rounsifer.cpp
+/Users/user/Desktop/School/Winter-2018/CIS 263/CIS-263/HW 4/rounsifer.cpp
 iostream
 -
 fstream
@@ -15,8 +15,4 @@ map
 -
 regex
 -
-rounsifer.h
-/Users/user/Desktop/School/Winter-2018/CIS 263/HW/HW 4/Code/rounsifer.h
-
-/Users/user/Desktop/School/Winter-2018/CIS 263/HW/HW 4/Code/rounsifer.h
 
