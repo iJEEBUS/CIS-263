@@ -1,6 +1,7 @@
 #include <iostream>
 #include "MyStack.h"
 using namespace std;
+
 /* Stack implemented using a vector */
 
 /*****************************************************************
