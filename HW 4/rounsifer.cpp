@@ -1,7 +1,3 @@
-//
-// Created by Ron on 2/23/18.
-//
-
 #include <iostream>
 #include <fstream>
 #include <map>
@@ -50,10 +46,8 @@ int main() {
     // Sets value to 0 if not a word
     for(auto it = word_map.begin(); it != word_map.end(); it++)
     {
-	//
 	// FIX THIS
 	// Figure out how to combine all of the regexes into one
-	//
         if (regex_match(it->first, m, r) | regex_match(it->first, m, a) | regex_match(it->first, m, d))
             word_map[it->first] = 0;
 
