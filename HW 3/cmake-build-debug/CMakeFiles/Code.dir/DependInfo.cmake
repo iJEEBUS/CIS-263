@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/user/Desktop/School/Winter-2018/CIS 263/HW/HW 3/Code/main.cpp" "/Users/user/Desktop/School/Winter-2018/CIS 263/HW/HW 3/Code/cmake-build-debug/CMakeFiles/Code.dir/main.cpp.o"
-  "/Users/user/Desktop/School/Winter-2018/CIS 263/HW/HW 3/Code/rounsifer.cpp" "/Users/user/Desktop/School/Winter-2018/CIS 263/HW/HW 3/Code/cmake-build-debug/CMakeFiles/Code.dir/rounsifer.cpp.o"
+  "/Users/user/Desktop/School/Winter-2018/CIS 263/CIS-263/HW 3/main.cpp" "/Users/user/Desktop/School/Winter-2018/CIS 263/CIS-263/HW 3/cmake-build-debug/CMakeFiles/Code.dir/main.cpp.o"
+  "/Users/user/Desktop/School/Winter-2018/CIS 263/CIS-263/HW 3/rounsifer.cpp" "/Users/user/Desktop/School/Winter-2018/CIS 263/CIS-263/HW 3/cmake-build-debug/CMakeFiles/Code.dir/rounsifer.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
